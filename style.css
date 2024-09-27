@@ -1,0 +1,155 @@
+.banner {
+    background-color: rgb(56, 56, 56);
+    height: 120px;
+    width: 1700px;
+    margin: 0px;
+}
+.navigation ul {
+    color: white;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    gap: 14px;
+    transform: translate(900px,-80px);
+}
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
+    gap: 14px;
+    transform: translate(0px,-140px);
+} 
+
+.education {
+    background-color: rgb(233, 233, 233);
+    height: 300px;
+    width: 1000px;
+    margin: 10px;
+    border-radius: 12px;
+    transform: translate(27px,-850px);
+}
+
+.solicitudes{
+background-color: rgb(233, 233, 233);
+height: 200px;
+width: 600px;
+border-radius: 12px;
+font-size: 20px;
+transform: translate(1100px,-1746px);
+}
+
+.connections {
+    background-color: rgb(233, 233, 233);
+    height: 756px;
+    width: 600px;
+    border-radius: 12px;
+    font-size: 20px;
+    transform: translate(1100px,-1735px);
+}
+
+.sesion-button {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 7%;
+    padding: 10px;
+    background-color: skyblue;
+    transform: translate(1400px,-1550px);
+}
+
+.cover {
+    background-color: skyblue;
+    height: 340px;
+    width: 1000px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transform: translate(40px,0px);
+}
+
+.background {
+    background-color: rgb(233, 233, 233);
+    height: 500px;
+    width: 1000px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transform: translate(40px,-190px);
+}
+
+.image {
+    background-image: 10px;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    transform: translate(80px,-790px);
+}
+
+.userName {
+    font-family: sans-serif;
+    font-weight: 600;
+    opacity: 75%;
+    transform: translate(65px,-795px);
+}
+
+.biography {
+    list-style: none;
+    display: flex;
+    font-size: 23px;
+    font-family: sans-serif;
+    text-align: justify;
+    opacity: 70%;
+    transform: translate(30px,-800px);
+}
+
+.edit-profile {
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #0000;
+    color: rgb(0, 110, 255);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    transform: translate(60px,-810px);
+}
+
+.container {
+    position: relative;
+    top: -115px;
+}
+
+.container2 {
+    position: relative;
+    top: -100px;
+}
+.first-list {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    list-style-type: none;
+    display: flex;
+    opacity: 80%;
+    transform: translate(0px,40px);
+}
+
+.second-list {
+    transform: translate(0px,40px);
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.second-list li {
+    margin-bottom: 15px;
+}
